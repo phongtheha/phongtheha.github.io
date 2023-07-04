@@ -5,7 +5,7 @@ import DownloadCV from '../resume/DownloadCV';
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
-      words: ["Data Scientist.", "Machine Learning Engineer.", "Software Engineer.","Fashion Enthusiast Wannabe."],
+      words: ["Data Scientist.", "Machine Learning Engineer.", "Software Engineer."],
       loop: true,
       typeSpeed: 8,
       deleteSpeed: 20,
