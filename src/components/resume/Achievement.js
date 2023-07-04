@@ -10,54 +10,52 @@ const Achievement = () => {
       className="py-6 font-titleFont flex flex-col gap-20 md:flex-row"
     >
       <div className="flex-1">
-        <div className="py-6 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2005 - Present</p>
-          <h2 className="text-4xl font-bold">Accomplishments</h2>
+        <div className="py-6 font-titleFont flex flex-col text-center gap-4">
+          <h2 className="text-4xl font-bold">Achievements</h2>
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="MHT-CET Merit Ranker"
-            subTitle="Entrance Exam for Engineering colleges in Maharashtra (2020)"
-            result="153rd"
-            des="Bagged a whooping 153rd Rank out of 1.74 Lakh students that registered for the exam. Got a 99.89 percentile in PCM! Got admission in VJTI, Mumbai - top BTechcollege in Maharashtra."
+            title="Out to Innovate Scholarships"
+            subTitle="Issued by NOGLSTP"
+            result="2022"
+            des="Scholarship for LGBTQ+ students in STEM field"
           />
           <ResumeCard
-            title="SSC Merit Holder"
-            subTitle="10th Std Exam conducted by Government of Maharashtra (2018)"
-            result="94.20%"
-            des="Bagged a whooping 94.20% in SSC exam. Awarded with a trophy by Mahesh Tutorials Coaching Institute!"
+            title="Fung Institute Opportunity Grant"
+            subTitle="Issued by UC Berkeley"
+            result="2022"
+            des="Scholarship for UC Berkeley MEng Students"
           />
           <ResumeCard
-            title="Scholarship Holder"
-            subTitle="7th Std Scholarship Exam conducted by Government of Maharashtra (2015)"
-            result="206/300"
-            des="Passed with good marks in the exam and also received scholarship money till the completion of 10th std. Rank:- 33/1617 who got the scholarship (all passed students are not given scholarship)."
+            title="Phi Beta Kappa"
+            subTitle="Award to top 10% of graduating class"
+            result="2019"
+            des="The most prestigious honor society in the US"
           />
         </div>
       </div>
       <div className="flex-1">
-        <div className="py-6 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2005 - Present</p>
-          <h2 className="text-4xl font-bold">Accomplishments</h2>
+        <div className="py-6 font-titleFont flex flex-col text-center gap-4">
+          <h2 className="text-4xl font-bold">Achievements</h2>
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="English Competency Analytical Test (ECAT)"
-            subTitle="5th NELTAS ECAT GRAND FINALE (2015 - 2016)"
-            result="80.5%"
-            des="Certificate awarded for meritorious performance in the exam."
+            title="Phyllis Zayon Steinberg Memorial Award in Mathematics"
+            subTitle="Issued by Mathematics Department at Temple University"
+            result="2019"
+            des="Presented to a member of the graduating class who has demonstrated superior achievements in the math program and has promise in the field of mathematics"
           />
           <ResumeCard
-            title="The Bharat Scouts And Guides"
-            subTitle=" Course during 9th and 10th Std (2016 - 2018)"
-            result="A"
-            des="Awarded 'A' grade certificate for successfully completing the course exams."
+            title="Dean's List"
+            subTitle="Temple University"
+            result="2015-2019"
+            des="Made Dean's List every semester"
           />
           <ResumeCard
-            title="Scholarship Exam"
-            subTitle="4th Std Scholarship Exam conducted by Government of Maharashtra (2012)"
-            result="230/300"
-            des="Passed with good marks in the exam but not received scholarship. (all passed students are not given scholarship)."
+            title="Provost Scholarship, University Honors Program"
+            subTitle="Temple University"
+            result="2015-2019"
+            des="Scholarship to attend Temple University"
           />
         </div>
       </div>

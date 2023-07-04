@@ -27,3 +27,6 @@
 .scrollbar-hide::-webkit-scrollbar{
     display: none;
 }
+.new-line {
+    white-space: pre-line;
+}

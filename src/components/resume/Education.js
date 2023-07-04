@@ -7,38 +7,38 @@ const Education = () => {
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
-      className="w-full flex flex-col lgl:flex-row gap-10 lgl:gap-20"
+      className="w-full flex flex-col lgl:flex-row gap-10 lgl:gap-20 justify-center items-center"
     >
       {/* part one */}
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2005 - 2024</p>
-          <h2 className="text-3xl md:text-4xl font-bold">Educational Qualification</h2>
+          <p className="text-sm text-designColor tracking-[4px] justify-center items-center text-center">2011 - 2023</p>
+          <h2 className="text-3xl md:text-4xl font-bold justify-center items-center text-center">Educational Qualifications</h2>
         </div>
-        <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-4 lgl:mt-6 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-6">
           <ResumeCard
-            title="BTech in Information Technology"
-            subTitle="Veermata Jijabai Technological Institute (2020 - 2024)"
-            result="7.5 CPI"
-            des="Studied IT related subjects like Operating Systems, DBMS, OOPS, ML, Web Development, AI, DSA, Compiler Design etc."
+            title="University of California, Berkeley"
+            subTitle="Master of Engineering in Electrical Engineering and Computer Science (EECS)"
+            result="2022-2023"
+            des={"GPA: 3.90/4.0\n\nConcentration in Data Science and Systems\n\nRelevant Technical Coursework: \nMachine Learning (A)\nNatural Language Processing (A)\nDeep Reinforcement Learning (A)\n User Interface Design and Development (A-)\nPrinciples of Data Science (Audited) \n\n Leadership Coursework: Marketing and Product Management (A), Entrepreneurship (A) \nCommunications for Engineering Leaders (A-), Organizational Behaviors (A-)"}
           />
           <ResumeCard
-            title="Higher Secondary Education"
-            subTitle="Rustomjee International School and Junior College (2018 - 2020)"
-            result="88.15%"
-            des="Studied in this school from 11th to 12th std. HSC Subjects: PCM, English, Electrical Maintenance, Environment Education. "
+            title="Temple University"
+            subTitle="Bachelor of Arts in Mathematics"
+            result="2015-2019"
+            des={"GPA: 3.90/4.0\n\nMajored in Mathematics, \n with Minors in Computer Science and Economics, and Certificate in Data Science\n\nRelevant Coursework: \nData Structures & Algorithms (A), Statistics (A), Linear Algebra (A), Calculus1,2&3 (A)\nMachine Learning (A), Data Science (A), Real & Complex Analysis (A)\nAbstract Algebra (A), Probability Theory (A-), Differential Equations (A), Numerical Analysis (A)"}
           />
           <ResumeCard
-            title="Primary & Secondary School Education"
-            subTitle="Rustomjee International School (2005 - 2018)"
-            result="94.20% "
-            des="Studied in this school from Nursery to 10th std. SSC Subjects: English, Hindi-French, Marathi, Maths, Science, Social Sciences."
+            title="Viet Duc High School"
+            subTitle="High School Diploma"
+            result="2011-2013"
+            des={"GPA: 86.50%\nOne of the top high schools in Hanoi, Vietnam"}
           />
         </div>
       </div>
       {/* part Two */}
 
-      <div>
+      {/* <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
           <p className="text-sm text-designColor tracking-[4px]">2020 - 2023</p>
           <h2 className="text-3xl md:text-4xl font-bold">Certificates</h2>
@@ -63,7 +63,7 @@ const Education = () => {
             des=" Learned basics of Neo4j - a database management system "
           />
         </div>
-      </div>
+      </div> */}
     </motion.div>
   );
 }

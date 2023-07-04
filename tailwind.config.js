@@ -3,6 +3,11 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      gradientColorStops: {
+        'gradient-start': '#05a4d9',
+        'gradient-mid': '#fdaa1d',
+        'gradient-end': '#fc7745', 
+      },
       screens:{
         xs: "320px",
         sm: "375px",
@@ -21,8 +26,8 @@ module.exports = {
         bodyColor: "#212428",
         lightText: "#c4cfde",
         boxBg: "linear-gradient(145deg, #1e2024, #23272b)",
-        designColor: "#ff014f",
-      },
+        designColor: "#fdaa1d",
+        },
       boxShadow: {
         shadowOne: "10px 10px 19px #1c1e22, -10px -10px 19px #262a2e",
       },

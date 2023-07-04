@@ -4,7 +4,7 @@ import Education from './Education';
 import Skills from './Skills';
 import Achievement from './Achievement';
 import Experience from "./Experience"
-
+import DownloadCV from './DownloadCV';
 const Resume = () => {
    const [educationData, setEducationData] = useState(true);
    const [skillData, setSkillData] = useState(false);
@@ -13,7 +13,7 @@ const Resume = () => {
   return (
     <section id="resume" className="w-full py-20 border-b-[1px] border-b-black">
       <div className="flex justify-center items-center text-center">
-        <Title title="18+ YEARS OF ACADEMIC AND WORK EXPERIENCE" des="My Resume" />
+        <Title title="MY ACADEMIC AND PROFESSIONAL JOURNEY SO FAR. WHERE NEXT?" des={"Current Resume"}/>
       </div>
       <div>
         <ul className="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4">
@@ -81,7 +81,9 @@ const Resume = () => {
       {skillData && <Skills />}
       {achievementData && <Achievement />}
       {experienceData && <Experience />}
- 
+      <div className="flex justify-center items-center text-center pt-20">
+        <DownloadCV/>
+      </div>
     </section>
   );
 }

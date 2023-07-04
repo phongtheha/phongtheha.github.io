@@ -2,6 +2,7 @@ import React from 'react'
 import {  FaLinkedinIn } from "react-icons/fa";
 import { SiGithub,SiGmail } from "react-icons/si";
 import { contactImg } from "../../assets/index";
+import Media from '../banner/Media';
 
 const ContactLeft = () => {
   return (
@@ -12,39 +13,30 @@ const ContactLeft = () => {
         alt="contactImg"
       />
       <div className="flex flex-col gap-1">
-        <h3 className="text-3xl font-bold text-white">Mihir Chavan</h3>
-        <p className="text-lg font-normal text-gray-400">
-          MERN Stack Developer
-        </p>
+        <h3 className="text-3xl font-bold text-white">Let's Connect!!</h3>
+        {/* <p className="text-lg font-normal text-gray-400">
+          Data Scientist
+        </p> */}
+        <p> </p>
         <p className="text-base text-gray-400 tracking-wide">
-        I am a passionate MERN stack developer with expertise in building robust and dynamic websites.I thoroughly enjoy the process of creating captivating web experiences that combine seamless functionality with stunning design. 
+          If you have any questions or simply want to say hi, please feel free to reach out! (email preferred). I will respond as soon as I can 😄
+        </p>
+        <p> </p>
+        <p className="text-base text-gray-400 flex items-center gap-2">
+          Phone: <span className="text-lightText">+1 267-506-4275</span>
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Phone: <span className="text-lightText">+91 secret 🤫</span>
+          Email: <span className="text-lightText">phongtheha@gmail.com</span>
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Email: <span className="text-lightText">mihirc0111@gmail.com</span>
+          Github: <span className="text-lightText">https://github.com/phongtheha</span>
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Github: <span className="text-lightText">https://github.com/mihirc0111</span>
+          Linkedin: <span className="text-lightText">https://linkedin.com/in/phongtheha</span>
         </p>
       </div>
       <div className="flex flex-col gap-0">
-        <h2 className="text-base uppercase font-titleFont mb-4">Find me on</h2>
-        <div className="flex gap-4">
-          <span className="bannerIcon">
-          <a href="https://github.com/mihirc0111" target="_blank" rel="noopener noreferrer">
-            <SiGithub /></a>
-          </span>
-          <span className="bannerIcon">
-          <a href="mailto:mihirc0111@gmail.com">
-            <SiGmail /></a>
-          </span>
-          <span className="bannerIcon">
-          <a href="https://www.linkedin.com/in/mihir-chavan-643615234/" target="_blank" rel="noopener noreferrer">
-            <FaLinkedinIn /></a>
-          </span>
-        </div>
+        <Media />
       </div>
     </div>
   );

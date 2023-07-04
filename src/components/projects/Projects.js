@@ -11,53 +11,63 @@ const Projects = () => {
     >
       <div className="flex justify-center items-center text-center">
         <Title
-          title="Check these out on my github"
+          title="What I've been working on recently"
           des="My Projects"
         />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
-          title="IPL-Win-Predictor"
-          des=" A ML project using logistic regression to find out the win probability of the chasing team in an IPL match. Used Kaggle dataset from 2008-2019."
+          title="Digital Afterlife"
+          des="Capstone Project at UC Berkeley. Fine-tuned large language models including OpenAI's GPT3 to create digital clones of actual people"
           src={projectOne}
-          githubLink="https://github.com/mihirc0111/IPL-Predictor-Mihir"
-          websiteLink="https://mihirc0111-ipl-predictor-mihir-app-8s1ct4.streamlit.app/"
+          boolGithub={false}
+          boolWebsite={false}
 
         />
         <ProjectsCard
-          title="Mi-Blog-Van"
-          des=" This is a blog website have a EJS, Node & Express as backend and Mongoose & MongoDB database."
+          title="QuantumQruiters"
+          des="A user-friendly web application for practicing behavioral interviews using React and Next.Js. Integrated LangChain, OpenAI’s GPT 3.5, and Whisper APIs for Speech-to-Text to provide comprehensive, AI-
+          powered, LLM generated feedback to user’s interview performances"
           src={projectTwo}
-          githubLink="https://github.com/mihirc0111/Mi-Blog-Van"
-          websiteLink="https://mihirs-blog-website.onrender.com/"
+          boolGithub={false}
+          boolWebsite={false}
         />
         <ProjectsCard
-          title="Secret Sharing Website"
-          des=" This is a website for posting secrets anonymously with an authentication system ."
+          title="Iterative Mimick"
+          des="Published at COLING 2020. Created a new algorithm for better character-level embedding generation. Applied to solve the problem of job title normalization"
           src={projectThree}
-          githubLink="https://github.com/mihirc0111/Secrets"
-          websiteLink="https://mihirs-secrets-sharing-website.onrender.com/"
+          githubLink=""
+          websiteLink="https://aclanthology.org/2020.coling-main.104.pdf"
+          boolGithub={false}
+          boolWebsite={true}
         />
         <ProjectsCard
-          title="After School Diaries"
-          des=" To create a website which plays Cartoon/Show songs' audio when user clicks on a particular cartoon image. Using HTML,CSS,JS,Bootstrap to bundle the songs we loved during our childhood!"
+          title="Pikachu Electric Calculator"
+          des="Assignment for CS 260 at Berkeley. A cute pikachu themed website for a simple time-distance conversion calculator"
           src={projectFour}
-          githubLink="https://github.com/mihirc0111/AfterSchoolDiaries-HTML-CSS-JS-BootStrap-Website"
-          websiteLink="https://mihirc0111.github.io/AfterSchoolDiaries-HTML-CSS-JS-BootStrap-Website/"
-        />
-        <ProjectsCard
-          title="Weather Website"
-          des=" This is a weather website created using HTML,CSS,Bootstrap,Node.js,Express.js and OpenWeather API ."
-          src={projectFive}
-          githubLink="https://github.com/mihirc0111/Weather-Website-UsingAPI--node.js--express.js"
-          websiteLink="https://mihirs-weather-website.onrender.com/"
-        />
-        <ProjectsCard
-          title="Face Detection"
-          des=" This project uses various libraries like to detect human face from a given image, detect a face from a live -webcam video and to create an attendance system."
-          src={projectSix}
-          githubLink="https://github.com/mihirc0111/Face-Detection-ML-Project-Python.git"
+          githubLink="https://github.com/phongtheha/PikachuElectricCalculator"
           websiteLink=""
+          boolGithub={true}
+          boolWebsite={false}
+        />
+        <ProjectsCard
+          title="Transformer Encoder from Scratch"
+          des="Built a transformer encoder from scratch with Pytorch and trained on Imdb sentiment dataset to achieve 90% accuracy
+          on test set, comparable to fine-tuning a pre-trained BERT"
+          src={projectFive}
+          githubLink="https://github.com/phongtheha/TransformerFromScratch"
+          websiteLink=""
+          boolGithub={true}
+          boolWebsite={false}
+        />
+        <ProjectsCard
+          title="Data Science Projects"
+          des="A collection of data science notebooks for different projects, such as EDA, Webscraping of Indeed.com, Twitter API Analysis, etc"
+          src={projectSix}
+          githubLink="https://github.com/phongtheha/Data-Science-Projects"
+          websiteLink=""
+          boolGithub={true}
+          boolWebsite={false}
         />
       </div>
     </section>
