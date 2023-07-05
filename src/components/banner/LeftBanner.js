@@ -30,9 +30,9 @@ const LeftBanner = () => {
         "I'm a data scientist and ML Engineer with 3 years of professional experience and about 2 years of research experience"
         </p>
       </div>
-     {/* Media */}
+      <DownloadCV />
      <Media />
-     <DownloadCV />
+     
     </div>
   );
 }
