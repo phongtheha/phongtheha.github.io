@@ -27,7 +27,7 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-        "I'm a data scientist and ML Engineer with 3 years of professional experience and about 2 years of research experience"
+        "I'm a data scientist/ML Engineer with 3 years of industry experience and about 2 years of ML research experience. <br/><br/>Skilled in deploying ML models, integrating NLP and large language models (LLMs) into applications, analyzing data to provide actionable business insights, and much more!"
         </p>
       </div>
       <DownloadCV />

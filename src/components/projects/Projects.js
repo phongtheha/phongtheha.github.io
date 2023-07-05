@@ -18,7 +18,7 @@ const Projects = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
           title="Digital Afterlife"
-          des="Capstone Project at UC Berkeley. Fine-tuned large language models including OpenAI's GPT3 to create digital clones of actual people"
+          des="Capstone Project at UC Berkeley. Fine-tuned large language models (LLMs) including OpenAI's GPT3 to create digital clones of actual people"
           src={projectOne}
           boolGithub={false}
           boolWebsite={false}
@@ -33,8 +33,8 @@ const Projects = () => {
           boolWebsite={false}
         />
         <ProjectsCard
-          title="Iterative Mimick"
-          des="Published at COLING 2020. Created a new algorithm for better character-level embedding generation. Applied to solve the problem of job title normalization"
+          title="Iterative Mimick - Job Titles Normalization"
+          des="Published at COLING 2020. Created a new NLP algorithm for better character-level embedding generation. Applied to solve the problem of job titles normalization"
           src={projectThree}
           githubLink=""
           websiteLink="https://aclanthology.org/2020.coling-main.104.pdf"
