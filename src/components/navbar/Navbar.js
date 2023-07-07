@@ -46,7 +46,7 @@ const Navbar = () => {
               <div>
                 <img className="w-32" src={logo} alt="logo" />
                 <p className="text-sm text-gray-400 mt-2">
-                "I am a passionate MERN stack developer and machine learning enthusiast. With a strong foundation in web development and a keen eye for data, I create innovative solutions that bridge technology and user experience."
+                "I'm a data scientist/ML Engineer with 3 years of industry experience and about 2 years of ML research experience. "
                 </p>
               </div>
               <ul className="flex flex-col gap-4">
