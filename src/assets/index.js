@@ -11,6 +11,7 @@ import projectSix from "./images/projects/projectSix.png";
 // import testimonialThree from "./images/testmonial/testimonialThree.jpeg";
 import quote from "./images/testmonial/quote.png";
 import contactImg from "./images/contact/contactImg.gif";
+import universe from "./images/universe.gif"
 
 export {
   logo,
@@ -26,4 +27,5 @@ export {
   // testimonialThree,
   quote,
   contactImg,
+  universe,
 };

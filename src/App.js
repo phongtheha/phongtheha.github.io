@@ -7,11 +7,13 @@ import FooterBottom from "./components/footer/FooterBottom";
 import Navbar from "./components/navbar/Navbar";
 import Projects from "./components/projects/Projects";
 import Resume from "./components/resume/Resume";
+import {universe} from "./assets/index";
 // import Testimonial from "./components/tesimonial/Testimonial";
 
 function App() {
   return (
-    <div className="w-full h-auto bg-bodyColor text-lightText px-4">
+    <div style={{backgroundImage: `url(${universe})`}} className="w-full h-auto text-lightText px-4">
+     {/* <div className={`className="w-full h-auto bg-bodyColor text-lightText px-4"`}> */}
         <Navbar />
       <div className="max-w-screen-xl mx-auto">
         <Banner />
